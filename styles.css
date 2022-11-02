@@ -1,0 +1,102 @@
+html{
+    font-family: Verdana, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+body{
+    background-color: #f28095;
+    margin: 0;
+}
+
+
+header, footer{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    height: 150px;
+    background-color: #141a1a;
+    color: #fff;
+    background-image: url(images/bowl.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h1{
+    margin: 0;
+    padding: 50px 0 0 32px;
+}
+
+main{
+    color: #542c1b;
+    padding-bottom: 16px;
+}
+
+main img{
+    float: left;
+}
+
+main p{
+    margin-left: 32px;
+    display: inline-block;
+    width: 50%;
+}
+
+main ul{
+    margin-left: 16px;
+    display: inline-block;
+    width: 50%;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: 184px 1fr;
+    gap: 0 16px;
+    width: 1000px;
+    background-color: #fdfdfd;
+    margin: 0 auto;
+
+}
+
+nav{
+    width: 150px;
+    margin-top: 16px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #141a1a;
+    display: block;
+    padding: 16px;
+    margin: 8px auto;
+    background-color: #e0e5de;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li{
+    list-style: none;
+    text-align: center;
+   
+}
+
+li:nth-child(1) a{
+    background-color: #f28095;
+}
+
+nav li:hover{
+    background-color: #f28095;
+}
+
+address{
+    clear: both;
+    padding-top: 16px;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+    background-color: #afaeb4;
+    padding: 8px 0px;
+}
